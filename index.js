@@ -43,7 +43,7 @@ class PlayScene extends Phaser.Scene {
         font: "8px monospace",
         fill: "#ffffff",
         padding: { x: 1, y: 1 },
-        backgroundColor: "#000000"
+        backgroundColor: "#ffffff"
       })
       .setScrollFactor(0);
   }
@@ -79,7 +79,7 @@ const config = {
   physics: {
     default: "arcade",
     arcade: {
-      gravity: { y: 500 }
+      gravity: { y: 1500 }
     }
   }
 };
